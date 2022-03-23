@@ -5,11 +5,11 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <img alt="Vue logo" src="./assets/logo.png"/>
+  <HelloWorld msg="Hello Vue 3 + Vite"/>
 </template>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -17,5 +17,9 @@ import HelloWorld from './components/HelloWorld.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.my-test-class {
+  @apply bg-blue-300 text-3xl text-amber-500;
 }
 </style>

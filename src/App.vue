@@ -5,7 +5,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png"/>
+  <div class="flex justify-center">
+    <img alt="Vue logo" src="./assets/img/logo.png"/>
+  </div>
   <HelloWorld msg="Hello Vue 3 + Vite"/>
 </template>
 
@@ -17,9 +19,5 @@ import HelloWorld from './components/HelloWorld.vue'
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-
-.my-test-class {
-  @apply bg-blue-300 text-3xl text-amber-500;
 }
 </style>

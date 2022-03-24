@@ -3,9 +3,7 @@
 </template>
 
 <script>
-// import Default from './components/Default.vue'
-import Default from '@/components/Default.vue'
-
+import Default from '@/layouts/Default.vue'
 export default {
   components: {
     Default,

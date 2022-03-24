@@ -1,0 +1,9 @@
+.gradient{
+  @apply relative;
+
+  &:before{
+    content: '';
+    background: linear-gradient(180deg, #D9D2E8 11.07%, rgba(217, 210, 232, 0) 33.47%);
+    @apply absolute z-10 h-full w-full;
+  }
+}

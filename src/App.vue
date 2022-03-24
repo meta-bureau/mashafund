@@ -1,23 +1,18 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div class="flex justify-center">
-    <img alt="Vue logo" src="./assets/img/logo.png"/>
-  </div>
-  <HelloWorld msg="Hello Vue 3 + Vite"/>
+  <Default/>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<script>
+// import Default from './components/Default.vue'
+import Default from '@/components/Default.vue'
+
+export default {
+  components: {
+    Default,
+  }
 }
+</script>
+
+<style lang="scss">
+
 </style>

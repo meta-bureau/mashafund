@@ -1,16 +1,19 @@
 <template>
-<!--  <div class="flex flex-col items-center ml-auto mr-auto max-w-[1440px] min-w-[360px] bg-primary">-->
-  <div class="flex flex-col items-center">
+<!--  <div class="flex flex-col items-center">-->
+  <div class="flex flex-col items-center overflow-hidden">
     <Hero/>
+    <About/>
   </div>
 </template>
 
 <script>
 import Hero from '@/components/layout/Hero.vue'
+import About from '@/components/layout/About.vue'
 
 export default {
   components:{
     Hero,
+    About,
   }
 }
 </script>

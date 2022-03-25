@@ -8,14 +8,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue3-smooth-scroll": "^0.8.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
+    "sass": "^1.42.1",
     "tailwindcss": "^3.0.23",
-    "vite": "^2.8.0",
-    "sass": "^1.42.1"
+    "vite": "^2.8.0"
   }
 }

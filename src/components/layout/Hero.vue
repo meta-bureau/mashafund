@@ -11,7 +11,7 @@
           </div>
         </header>
         <div class="flex justify-end w-full h-full">
-          <div class="max-w-[686px] mt-[222px] font-montserrat">
+          <div class="max-w-[686px] mt-[222px]">
             <Title text="«Фонд МАША»"/>
             <p class="mt-11 mb-[30px] text-2xl font-normal">
               Це громадська організація, заснована у 2020 році телеведучою,
@@ -21,7 +21,7 @@
               Фонд МАША має необхідний людський ресурс для допомоги постраждалим у війні в Україні.
             </p>
             <div class="flex justify-center mt-28 mb-12">
-              <a class="text-primary-9" href="#sec-about" v-smooth-scroll="{duration: 400}">
+              <a class="text-primary-9" href="#sec-about" v-smooth-scroll>
                 Прокрути вниз
                 <img class="mx-auto mt-2" src="../../assets/img/icons/arrow-down.svg" alt="arrow-down">
               </a>

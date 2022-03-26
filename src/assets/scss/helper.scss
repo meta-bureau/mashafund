@@ -7,3 +7,16 @@
     @apply absolute z-10 h-full w-full;
   }
 }
+
+.image-bg-right-logo {
+  @apply relative z-10;
+
+  &:before {
+    content: '';
+    background-image: url("../../assets/img/logo_2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @apply absolute w-[65px] h-[161px] -z-10 opacity-50 right-[-30px] bottom-[-101px];
+  }
+}

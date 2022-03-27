@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary-9 w-full overflow-hidden">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col w-full items-center w-[80%] my-[142px] founder-bg-logo">
+      <div class="flex flex-col items-center w-[80%] my-[142px] founder-bg-logo">
         <Title text="ЗАСНОВНИЦІ" color="white"/>
         <div class="flex w-full flex-col mt-[70px]">
           <div class="flex flex-col md:flex-row md:justify-between">
@@ -70,7 +70,7 @@ export default {
 
   &:before, &:after {
     content: '';
-    background-image: url("../../assets/img/logo_2.png");
+    background-image: url("../../assets/img/logo_3.png");
     background-repeat: no-repeat;
     background-size: cover;
     @apply absolute z-0;

@@ -4,6 +4,9 @@
     <About/>
     <Founders/>
     <Partners/>
+    <Projects/>
+    <Requisites/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,6 +15,9 @@ import Hero from '@/components/layout/Hero.vue'
 import About from '@/components/layout/About.vue'
 import Founders from '@/components/layout/Founders.vue'
 import Partners from '@/components/layout/Partners.vue'
+import Projects from '@/components/layout/Projects.vue'
+import Requisites from '@/components/layout/Requisites.vue'
+import Footer from '@/components/layout/Footer.vue'
 
 export default {
   components:{
@@ -19,6 +25,9 @@ export default {
     About,
     Founders,
     Partners,
+    Projects,
+    Requisites,
+    Footer,
   }
 }
 </script>

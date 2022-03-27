@@ -38,7 +38,7 @@
             </p>
           </div>
           <div class="bg-gray rounded p-[68px]">
-            <p class="text-primary-9 text-4xl">Програма відновлення</p>
+            <p class="text-primary-9 text-4xl">Програма<br>відновлення</p>
             <div class="font-helvetica space-y-1.5 mt-[42px]">
               <p>Війна закінчиться.</p>
               <p>Вогонь припинеться, а Україна стане вільною</p>

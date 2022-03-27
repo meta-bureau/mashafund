@@ -11,7 +11,7 @@
           </div>
         </header>
         <div class="flex justify-end w-full h-full">
-          <div class="max-w-[686px] mt-[222px]">
+          <div class="w-6/12 pr-2.5 mt-[222px]">
             <Title text="«Фонд МАША»"/>
             <p class="mt-11 mb-[30px] text-2xl font-normal">
               Це громадська організація, заснована у 2020 році телеведучою,

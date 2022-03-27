@@ -74,8 +74,53 @@
     <div class="2xl:container flex justify-center">
       <div class="flex justify-start w-[80%] my-[142px] relative">
         <div class="absolute right-[-6px] top-[-47px] z-10 shadow-light">
-          <div class="image-bg-right-logo w-[392px] h-[450px]">
-            <img class="rounded" width="392" height="450" src="../../assets/img/slide_1.jpg">
+          <div class="image-bg-right-logo w-[392px] h-[450px] about-slider-wrap">
+            <Carousel :autoplay="3500">
+              <Slide key="1">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_1.jpg">
+              </Slide>
+              <Slide key="2">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_2.jpg">
+              </Slide>
+              <Slide key="3">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_3.jpg">
+              </Slide>
+              <Slide key="4">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_4.jpg">
+              </Slide>
+              <Slide key="5">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_5.jpg">
+              </Slide>
+              <Slide key="6">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_6.jpg">
+              </Slide>
+              <Slide key="7">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_7.jpg">
+              </Slide>
+              <Slide key="8">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_8.jpg">
+              </Slide>
+              <Slide key="9">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_9.jpg">
+              </Slide>
+              <Slide key="10">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_10.jpg">
+              </Slide>
+              <Slide key="11">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_11.jpg">
+              </Slide>
+              <Slide key="12">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_12.jpg">
+              </Slide>
+              <Slide key="13">
+                <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_13.jpg">
+              </Slide>
+
+              <template #addons>
+                <Navigation/>
+                <Pagination/>
+              </template>
+            </Carousel>
           </div>
         </div>
         <div
@@ -87,30 +132,19 @@
           </p>
           <p class="text-lg text-primary-9 leading-[30px] mt-[50px] mb-[30px]">
             <span class="font-bold">Наш пріоритет</span>
-             закривати нагальні проблеми - з їжею, медикаментами, засобами гігієни, одягом тих хто
+            закривати нагальні проблеми - з їжею, медикаментами, засобами гігієни, одягом тих хто
             залишається в цих областях і хто вимушено переїздить до них. Організовуємо евакуацію жінок з дітьми в
             безпечні місця.
           </p>
           <p class="text-lg leading-[30px] text-primary-9">
             <span class="font-bold">З перших днів війни</span>
-             був налагоджений зв'язок з активами місцевих громад (активні місцеві НУО та громадяни;
+            був налагоджений зв'язок з активами місцевих громад (активні місцеві НУО та громадяни;
             центри Матері та дитини, Червоний хрест, лікарні, притулки, місця де розміщують переселенок з дітьми) яким
             ми допомагаємо.
           </p>
         </div>
       </div>
     </div>
-
-<!--    <Carousel>-->
-<!--      <Slide v-for="slide in 10" :key="slide">-->
-<!--        <div class="carousel__item">{{ slide }}</div>-->
-<!--      </Slide>-->
-
-<!--      <template #addons>-->
-<!--        <Navigation />-->
-<!--        <Pagination />-->
-<!--      </template>-->
-<!--    </Carousel>-->
   </div>
 </template>
 
@@ -182,26 +216,20 @@ export default {
   }
 }
 
-.carousel__item {
-  min-height: 200px;
-  width: 100%;
-  background-color: var(--vc-clr-primary);
-  color:  var(--vc-clr-white);
-  font-size: 20px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.about-slider-wrap {
 
-.carousel__slide {
-  padding: 10px;
-}
+  .carousel__slide {
+    @apply h-[450px];
+  }
 
-.carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  border: 5px solid white;
+  .carousel__pagination-button {
+
+    @apply bg-primary;
+
+    &--active{
+      @apply bg-primary-9;
+    }
+  }
 }
 
 </style>

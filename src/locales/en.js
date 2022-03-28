@@ -1,6 +1,8 @@
 export default {
   hero: {
     title: 'MASHA Foundation',
+    text_1: '',
+    text_2: '',
   },
   about: {
 

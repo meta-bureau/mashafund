@@ -12,3 +12,7 @@ npm run dev or vite
 
 #### For build
 npm run build or vite build
+
+and for preview
+
+npm run preview or vite preview

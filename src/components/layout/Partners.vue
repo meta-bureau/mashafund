@@ -1,14 +1,14 @@
 <template>
   <div class="bg-gray w-full">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-[80%] my-[142px]">
+      <div class="flex flex-col items-center w-[80%] my-36">
         <Title text="ПАРТНЕРИ"/>
-        <div class="flex flex-row justify-center w-10/12 mt-[41px] mb-[70px] space-x-[44px]">
-          <img src="../../assets/img/partner_logo_1.png" alt="">
-          <img src="../../assets/img/GoGlobalLogo_2.png" alt="" class="grayscale opacity-50">
-          <img src="../../assets/img/partner_logo_3.png" alt="" class="grayscale opacity-50">
-          <img src="../../assets/img/UNFPALogo_4.png" alt="" class="grayscale opacity-50">
-          <img src="../../assets/img/partner_logo_5.png" alt="" class="grayscale opacity-50">
+        <div class="flex flex-row justify-center w-10/12 mt-10 mb-16 space-x-11">
+          <img src="@/assets/img/partner_logo_1.png" alt="">
+          <img src="@/assets/img/GoGlobalLogo_2.png" alt="" class="grayscale opacity-50">
+          <img src="@/assets/img/partner_logo_3.png" alt="" class="grayscale opacity-50">
+          <img src="@/assets/img/UNFPALogo_4.png" alt="" class="grayscale opacity-50">
+          <img src="@/assets/img/partner_logo_5.png" alt="" class="grayscale opacity-50">
         </div>
         <div class="partner-ears w-10/12">
           <div
@@ -19,18 +19,18 @@
                   <p class="text-primary-9 text-4xl">
                     Благодійний фонд "Твоя опора"
                   </p>
-                  <p class="text-primary-9 text-lg mt-[46px]">
+                  <p class="text-primary-9 text-lg mt-11">
                     <span class="font-bold">Місія фонду</span> – повертати дітям радість та свободу життя
                   </p>
-                  <p class="text-primary-9 text-lg mt-[18px]">
+                  <p class="text-primary-9 text-lg mt-5">
                     Фонд <span class="font-bold">"Твоя опора"</span> єдина організація від України, яка стала стала
                     членом
                     Всесвітньої федерації серця.
                   </p>
-                  <p class="text-primary-9 text-lg mt-[40px]">
+                  <p class="text-primary-9 text-lg mt-10">
                     Наразі фонд працює у таких напрямках:
                   </p>
-                  <ul class="list-disc pl-5 text-primary-9 space-y-4 marker:text-primary-9 mt-[20px]">
+                  <ul class="list-disc pl-5 text-primary-9 space-y-4 marker:text-primary-9 mt-5">
                     <li>
                       Допомога дітям з вродженими вадами серця - це найбільший проект фонду, в рамках якого ми
                       допомагаємо
@@ -44,7 +44,7 @@
                       Адресна допомога окремим дітям.
                     </li>
                   </ul>
-                  <p class="bg-gray rounded mt-[30px] py-4 px-[25px] text-center text-base font-helvetica">
+                  <p class="bg-gray rounded mt-8 py-4 px-6 text-center text-base font-helvetica">
                     Фонд, заснований у 2014 році Валерією Татарчук з метою <br> допомагати важко хворим дітям і дітям
                     сиротам
                   </p>
@@ -53,7 +53,7 @@
               <Slide key="2">
                 <div class="flex flex-col text-left">
                   <p class="text-primary-9 text-4xl">GoGlobal</p>
-                  <p class="text-primary-9 text-lg mt-[46px]">
+                  <p class="text-primary-9 text-lg mt-11">
                     Громадська організація, що сприяє вивченню іноземних мов в Україні, ініціювала Рік англійської мови
                     в Україні та залучила сотні міжнародних волонтерів для навчання українських дітей англійською,
                     французькою та німецькою мовами у рамках літніх шкіл GoCamp по всій Україні.
@@ -66,15 +66,15 @@
               <Slide key="3">
                 <div class="flex flex-col text-left">
                   <p class="text-primary-9 text-4xl">Інститут когнітивного моделювання</p>
-                  <p class="text-primary-9 text-lg mt-[46px]">
+                  <p class="text-primary-9 text-lg mt-11">
                     <span class="font-bold">Інститут когнітивного моделювання</span> – науково-дослідницька компанія,
                     яка займається соціальними технологіями та надає послуги у сфері соціальних комунікацій.
                   </p>
-                  <p class="text-primary-9 text-lg mt-[18px]">
+                  <p class="text-primary-9 text-lg mt-5">
                     Експерти Інституту надають консультації щодо стратегії формування іміджу, публічного позиціонування
                     та цифрових технологій.
                   </p>
-                  <p class="text-primary-9 text-lg mt-[18px]">
+                  <p class="text-primary-9 text-lg mt-5">
                     Також Інститут здійснює соціологічні дослідження, займається дослідженнями в сфері соціальної
                     психології, розробляє освітньо-психотерапевтичні продукти з корпоративної психології, проводить
                     сеанси індивідуальної терапії та організувує проведення авторських лекцій
@@ -84,12 +84,12 @@
               <Slide key="4">
                 <div class="flex flex-col text-left">
                   <p class="text-primary-9 text-4xl">UNFPA</p>
-                  <p class="text-primary-9 text-lg mt-[46px]">
+                  <p class="text-primary-9 text-lg mt-11">
                     Фонд ООН у галузі народонаселення є провідною агенцією ООН, яка зосереджує свою роботу у сфері
                     гендерної рівності, репродуктивного здоров’я та розбудови потенціалу молоді. Спільно з партнерами
                     UNFPA працює у 150 країнах та територіях світу. Представництво в Україні працює з 1997 року
                   </p>
-                  <p class="text-primary-9 text-lg mt-[18px]">
+                  <p class="text-primary-9 text-lg mt-5">
                     Місія фонду створити світ, де кожна вагітність є бажаною, кожні пологи безпечними, і кожна молода
                     людина може реалізувати свій потенціал
                   </p>
@@ -98,7 +98,7 @@
               <Slide key="5">
                 <div class="flex flex-col text-left">
                   <p class="text-primary-9 text-4xl">Рівновага</p>
-                  <p class="text-primary-9 text-lg mt-[46px]">
+                  <p class="text-primary-9 text-lg mt-11">
                     Центр психологічної допомоги для дітей та підлітків, в тому числі дітей з діагнозом аутизм,
                     нейропсихологічна корекція. Центр надає психологічну та нейропсихологічну допомогу пораненим і
                     постраждалим в результаті бойових дій

@@ -1,7 +1,8 @@
 export default {
   hero: {
     title: '«Фонд МАША»',
-    text_1: ''
+    text_1: '',
+    text_2: '',
   },
   about: {
 

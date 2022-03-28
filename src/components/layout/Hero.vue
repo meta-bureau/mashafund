@@ -1,8 +1,8 @@
 <template>
   <div class="bg-primary w-full">
     <div class="2xl:container flex hero-bg-logo">
-      <div class="flex flex-col w-full relative">
-        <div class="w-full px-11 xl:px-0 xl:w-[80%] z-20 absolute top-0 mt-5">
+      <div class="flex flex-col items-center w-full relative">
+        <div class="w-full px-5 md:px-11 xl:px-0 xl:w-[80%] z-20 absolute top-0 mt-5">
           <header class="flex justify-between items-center w-full">
             <a class="inline-flex" href="/">
               <img alt="" src="@/assets/img/logo.svg"/>
@@ -13,7 +13,7 @@
           </header>
         </div>
         <div class="flex justify-end w-full h-full">
-          <div class="w-7/12 xl:w-6/12 pr-2.5 ml-11 mt-56">
+          <div class="w-7/12 xl:w-6/12 pr-2.5 ml-5 md:ml-11 mt-56">
             <Title :text="$t('hero.title')"/>
             <p class="mt-11 mb-8 text-lg lg:text-2xl font-normal">
               Це громадська організація, заснована у 2020 році телеведучою,

@@ -2,6 +2,7 @@
   <div class="bg-gray w-full">
     <div id="sec-about" class="2xl:container flex flex-col items-center">
       <div class="flex justify-end w-[80%] mt-[135px] relative">
+<!--      <div class="flex justify-end w-[80%] mt-36 relative">-->
         <div class="absolute left-0 bottom-14 z-10 shadow-light">
           <div class="about-bg-left-logo w-[392px] h-[450px]">
             <img class="rounded" src="../../assets/img/it_seems.jpg" alt="">

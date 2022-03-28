@@ -6,14 +6,16 @@
           <a class="inline-flex" href="/">
             <img alt="" src="../../assets/img/logo.svg"/>
           </a>
-          <div class="">
-            <button type="button">ua</button>
+          <div class="">.
+            <LocaleSelect/>
           </div>
         </header>
         <div class="flex justify-end w-full h-full">
           <div class="w-6/12 pr-2.5 mt-[222px]">
-            <Title text="«Фонд МАША»"/>
+            <Title :text="$t('hero.title')"/>
+
             <p class="mt-11 mb-[30px] text-2xl font-normal">
+              <!--            <p class="mt-11 mb-8 text-2xl font-normal">-->
               Це громадська організація, заснована у 2020 році телеведучою,
               благодійницею та Почесним послом ООН в Україні Марією Єфросініною.
             </p>
@@ -22,7 +24,7 @@
             </p>
             <div class="flex justify-center mt-28 mb-12">
               <a class="text-primary-9" href="#sec-about" v-smooth-scroll>
-                Прокрути вниз
+                {{ $t('actions.scrollToDown') }}
                 <img class="mx-auto mt-2" src="../../assets/img/icons/arrow-down.svg" alt="arrow-down">
               </a>
             </div>
@@ -36,10 +38,12 @@
 
 <script>
 import Title from '@/components/ui/Title.vue'
+import LocaleSelect from '@/components/ui/LocaleSelect.vue'
 
 export default {
   components: {
     Title,
+    LocaleSelect,
   },
 }
 </script>

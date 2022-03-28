@@ -75,7 +75,7 @@
       <div class="flex justify-start w-[80%] my-[142px] relative">
         <div class="absolute right-[-6px] top-[-47px] z-10 shadow-light">
           <div class="image-bg-right-logo w-[392px] h-[450px] about-slider-wrap">
-            <Carousel :autoplay="3500">
+            <Carousel :autoplay="3000" :wrap-around="true">
               <Slide key="1">
                 <img class="rounded object-cover w-full h-full" src="src/assets/img/about-slider/slide_1.jpg">
               </Slide>

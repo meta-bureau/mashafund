@@ -13,7 +13,7 @@
         <div class="partner-ears w-10/12">
           <div
             class="flex flex-col bg-primary rounded w-full relative p-[98px] z-10 partners-bg-left-logo partners-slider-wrap">
-            <Carousel>
+            <Carousel :autoplay="3000" :wrap-around="true">
               <Slide key="1">
                 <div class="flex flex-col text-left">
                   <p class="text-primary-9 text-4xl">

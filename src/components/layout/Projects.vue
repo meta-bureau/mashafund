@@ -1,11 +1,11 @@
 <template>
   <div class="bg-primary w-full overflow-hidden">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-[80%] my-36 projects-bg-logo">
+      <div class="flex flex-col items-center w-full px-11 xl:px-0 xl:w-[80%] my-36 projects-bg-logo">
         <Title text="ПРОЄКТИ" fontSize="small"/>
         <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 z-10">
           <div class="bg-gray rounded p-16">
-            <p class="text-primary-9 text-4xl">Психологічна допомога дітям</p>
+            <p class="text-primary-9 text-2xl lg:text-4xl">Психологічна допомога дітям</p>
             <p class="text-primary-9 mt-12">
               Фонд “МАША” разом з центром нейропсихології “Рівновага” надають дітям, які отримали психоемоційну травму,
               безкоштовні...
@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="bg-gray rounded p-16">
-            <p class="text-primary-9 text-4xl">Гуманітарна допомога</p>
+            <p class="text-primary-9 text-2xl lg:text-4xl">Гуманітарна допомога</p>
             <p class="text-primary-9 mt-12">
               Фонд МАША надає гуманітарну допомогу центрам Матері та дитини, Червоному хресту, лікарням, шелтерам та
               місцям, де розміщують переселенок з дітьми...
@@ -31,15 +31,15 @@
             </div>
           </div>
           <div class="bg-gray rounded p-16">
-            <p class="text-primary-9 text-4xl">Евакуація мирного населення</p>
+            <p class="text-primary-9 text-2xl lg:text-4xl">Евакуація мирного населення</p>
             <p class="text-primary-9 mt-12">
               Фонд МАША проводить евакуацію мирного населення з тимчасово окупованих територій Київської, Чернігівської,
               Сумської та Полтавської областей
             </p>
           </div>
           <div class="bg-gray rounded p-16">
-            <p class="text-primary-9 text-4xl">Програма<br>відновлення</p>
-            <div class="font-helvetica space-y-1.5 mt-[42px]">
+            <p class="text-primary-9 text-2xl lg:text-4xl">Програма<br>відновлення</p>
+            <div class="font-helvetica space-y-1.5 mt-10">
               <p>Війна закінчиться.</p>
               <p>Вогонь припинеться, а Україна стане вільною</p>
               <p>Ми не перестанемо допомагати.</p>

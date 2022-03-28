@@ -5,7 +5,7 @@
       :key="lang.code"
       @click="onDropdownClick(lang.code)"
       style="font-weight: normal;"
-      class="text-black !text-lg "
+      class="text-black !text-lg cursor-pointer "
       :class="{'!font-medium !text-primary-9 border-b border-primary-9': $i18n.locale === lang.code }"
     >
       {{ lang.label }}

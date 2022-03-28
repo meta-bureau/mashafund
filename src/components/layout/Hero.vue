@@ -2,25 +2,27 @@
   <div class="bg-primary w-full">
     <div class="2xl:container flex hero-bg-logo">
       <div class="flex flex-col w-full relative">
-        <header class="flex items-center z-20 absolute left-0 right-0 top-0 justify-between mt-5 mx-36">
-          <a class="inline-flex" href="/">
-            <img alt="" src="@/assets/img/logo.svg"/>
-          </a>
-          <div class="">
-            <LocaleSelect/>
-          </div>
-        </header>
+        <div class="w-full px-11 xl:px-0 xl:w-[80%] z-20 absolute top-0 mt-5">
+          <header class="flex justify-between items-center w-full">
+            <a class="inline-flex" href="/">
+              <img alt="" src="@/assets/img/logo.svg"/>
+            </a>
+            <div class="">
+              <LocaleSelect/>
+            </div>
+          </header>
+        </div>
         <div class="flex justify-end w-full h-full">
-          <div class="w-6/12 pr-2.5 mt-56">
+          <div class="w-7/12 xl:w-6/12 pr-2.5 ml-11 mt-56">
             <Title :text="$t('hero.title')"/>
-            <p class="mt-11 mb-8 text-2xl font-normal">
+            <p class="mt-11 mb-8 text-lg lg:text-2xl font-normal">
               Це громадська організація, заснована у 2020 році телеведучою,
               благодійницею та Почесним послом ООН в Україні Марією Єфросініною.
             </p>
-            <p class="text-2xl font-normal">
+            <p class="text-lg lg:text-2xl font-normal mb-28">
               Фонд МАША має необхідний людський ресурс для допомоги постраждалим у війні в Україні.
             </p>
-            <div class="flex justify-center mt-28 mb-16">
+            <div class="hidden md:flex justify-center mb-16">
               <a class="text-primary-9" href="#sec-about" v-smooth-scroll>
                 {{ $t('actions.scrollToDown') }}
                 <img class="mx-auto mt-2" src="@/assets/img/icons/arrow-down.svg" alt="arrow-down">

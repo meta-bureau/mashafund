@@ -1,15 +1,13 @@
 <template>
   <div class="bg-gray w-full">
     <div id="sec-about" class="2xl:container flex flex-col items-center">
-<!--      <div class="flex justify-end w-[80%] mt-[135px] relative">-->
-      <div class="flex justify-end w-[80%] mt-36 relative">
-        <div class="absolute left-0 bottom-14 z-10 shadow-light">
-          <div class="about-bg-left-logo w-[392px] h-[450px]">
+      <div class="flex justify-end w-full px-11 xl:px-0 xl:w-[80%] mt-36 relative">
+        <div class="absolute left-11 xl:left-0 -top-14 z-10 shadow-light">
+          <div class="about-bg-left-logo w-[320px] xl:w-[392px] max-h-[450px]">
             <img class="rounded" src="@/assets/img/it_seems.jpg" alt="">
           </div>
         </div>
-<!--        <div class="w-[852px] pl-[196px] pr-[83px] pt-20 text-lg font-normal rounded bg-primary about-bg-right-logo">-->
-        <div class="w-9/12 pl-48 pr-20 pt-20 text-lg font-normal rounded bg-primary about-bg-right-logo">
+        <div class="w-9/12 pl-40 xl:pl-48 pr-20 pt-20 lg:text-lg font-normal rounded bg-primary about-bg-right-logo">
           <Title text="ПРО ФОНД"/>
           <p class="leading-7 text-primary-9 mt-10">
             Фонд МАША був заснований з метою протидії домашньому та гендерно зумовленому
@@ -20,23 +18,23 @@
           </p>
         </div>
       </div>
-      <div class="w-[80%] year-work-bg-left-logo">
-        <p class="mt-36 text-4xl text-primary-9 text-center">За рік роботи</p>
-        <p class="mt-7 text-center text-2xl font-helvetica">ми досягли:</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-16">
-          <div class="flex justify-center items-center rounded bg-primary px-14 py-16 lg:min-h-[246px] z-10">
+      <div class="px-11 xl:px-0 xl:w-[80%] year-work-bg-left-logo">
+        <p class="mt-36 text-2xl lg:text-4xl text-primary-9 text-center">За рік роботи</p>
+        <p class="mt-7 text-center lg:text-2xl font-helvetica">ми досягли:</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 my-16">
+          <div class="flex justify-center items-center rounded bg-primary p-12 lg:px-14 lg:py-16 lg:min-h-[246px] z-10">
             <p class="text-primary-9">
               Налагодили взаємодію між громадським сектором та органами влади, що займаються запобіганням домашньому
               насильству;
             </p>
           </div>
-          <div class="flex justify-center items-center rounded bg-primary-9 px-14 py-16 lg:min-h-[246px] z-10">
+          <div class="flex justify-center items-center rounded bg-primary-9 p-12 lg:px-14 lg:py-16 lg:min-h-[246px] z-10">
             <p class="text-gray">
               Активно підтримували ратифікацію Стамбульської конвенції у ЗМІ, груглих столах та конференціях;
             </p>
           </div>
           <div
-            class="flex justify-center items-center rounded md:col-span-2 lg:col-span-1 row-span-2 border-4 border-primary-9 px-14 py-16 z-10">
+            class="flex justify-center items-center rounded md:col-span-2 lg:col-span-1 row-span-2 border-4 border-primary-9 p-12 lg:px-14 lg:py-16 z-10">
             <p class="text-primary-9">
               Спільно з партнерами запустили платформу <br> “Мені здається”
               <a class="font-bold" href="https://itseems.com.ua/" target="_blank"><i>itseems.com.ua</i></a> яка охопила
@@ -46,24 +44,24 @@
             </p>
           </div>
           <div
-            class="flex justify-center items-center rounded row-span-2 border-4 border-primary-9 px-14 py-16 z-10">
+            class="flex justify-center items-center rounded row-span-2 border-4 border-primary-9 p-12 lg:px-14 lg:py-16 z-10">
             <p class="text-primary-9">
               Долучилися до розробки Указу Президента Про невідкладні заходи із запобігання та протидії домашньому
               насильству, насильству за ознакою статі, захисту прав осіб, які постраждали від такого насильства;
             </p>
           </div>
-          <div class="flex justify-center items-center rounded bg-primary px-14 py-16 lg:min-h-[246px] z-10">
+          <div class="flex justify-center items-center rounded bg-primary p-12 lg:px-14 lg:py-16 lg:min-h-[246px] z-10">
             <p class="text-primary-9">
               Допомогли з відкриттям притулку в Києві;
             </p>
           </div>
-          <div class="flex justify-center items-center rounded bg-primary-9 px-14 py-16 lg:min-h-[246px] z-10">
+          <div class="flex justify-center items-center rounded bg-primary-9 p-12 lg:px-14 lg:py-16 lg:min-h-[246px] z-10">
             <p class="text-gray">
               Налагодили співпрацю з усіма притулками для жінок і дітей в Україні;
             </p>
           </div>
           <div
-            class="flex justify-center items-center md:col-span-2 lg:col-span-1 rounded bg-primary px-14 py-16 lg:min-h-[246px] z-10">
+            class="flex justify-center items-center md:col-span-2 lg:col-span-1 rounded bg-primary p-12 lg:px-14 lg:py-16 lg:min-h-[246px] z-10">
             <p class="text-primary-9">
               Почали допомогу шелторам - речами та санітарно-гігієнічними засобами.
             </p>
@@ -74,9 +72,10 @@
   </div>
   <div class="bg-white w-full">
     <div class="2xl:container flex justify-center">
-      <div class="flex justify-start w-[80%] my-36 relative">
-        <div class="absolute -right-1.5 -top-12 z-10 shadow-light">
-          <div class="image-bg-right-logo w-[392px] h-[450px] about-slider-wrap">
+
+      <div class="flex justify-start px-11 xl:px-0 w-full xl:w-[80%] my-36 relative">
+        <div class="absolute right-11 xl:right-0 -top-12 z-10 shadow-light">
+          <div class="image-bg-right-logo  w-[320px] xl:w-[392px] about-slider-wrap">
             <Carousel :autoplay="3000" :wrap-around="true">
               <Slide key="1">
                 <img class="rounded object-cover w-full h-full" src="@/assets/img/about-slider/slide_1.jpg">
@@ -127,18 +126,18 @@
         </div>
         <div
           class="w-9/12 pl-16 pr-40 py-20 text-lg font-normal rounded bg-gray about-slider-bg-left-logo">
-          <p class="font-helvetica xl:pr-20 leading-7 text-2xl">
+          <p class="font-helvetica xl:pr-20 leading-7 text-lg lg:text-2xl">
             Наразі, ми активно допомагаємо Київській, Чернігівській, Сумській та Полтавській областям.
             Наша цільова аудиторія розширилася і включає найбільш незахищених - жінки, діти, літні люди
             та люди з інвалідністю різного віку.
           </p>
-          <p class="text-lg text-primary-9 leading-7 mt-12 mb-8">
+          <p class="lg:text-lg text-primary-9 leading-7 mt-12 mb-8">
             <span class="font-bold">Наш пріоритет</span>
             закривати нагальні проблеми - з їжею, медикаментами, засобами гігієни, одягом тих хто
             залишається в цих областях і хто вимушено переїздить до них. Організовуємо евакуацію жінок з дітьми в
             безпечні місця.
           </p>
-          <p class="text-lg leading-7 text-primary-9">
+          <p class="lg:text-lg leading-7 text-primary-9">
             <span class="font-bold">З перших днів війни</span>
             був налагоджений зв'язок з активами місцевих громад (активні місцеві НУО та громадяни;
             центри Матері та дитини, Червоний хрест, лікарні, притулки, місця де розміщують переселенок з дітьми) яким
@@ -178,7 +177,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
 
-    @apply absolute w-12 h-28 -z-10 opacity-50 left-6 bottom-20;
+    @apply absolute w-12 h-28 -z-10 opacity-50 -left-6 -bottom-20;
   }
 }
 
@@ -219,9 +218,10 @@ export default {
 }
 
 .about-slider-wrap {
+  @apply  h-[392px] xl:h-[450px];
 
   .carousel__slide {
-    @apply h-[450px];
+    @apply h-[392px] xl:h-[450px];
   }
 
   .carousel__pagination-button {

@@ -1,12 +1,11 @@
 <template>
   <div class="bg-white w-full">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-[80%] my-36 requisites-bg-logo">
+      <div class="flex flex-col items-center w-full px-11 xl:px-0 xl:w-[80%] my-36 requisites-bg-logo">
         <Title text="РЕКВІЗИТИ ФОНДУ" fontSize="small"/>
-        <!--        <div class="flex w-full space-x-[30px] mt-[70px]">-->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 z-10">
           <div class="bg-primary rounded p-12">
-            <p class="text-4xl text-primary-9">€ Евро</p>
+            <p class="text-2xl lg:text-4xl text-primary-9">€ Евро</p>
             <div class="space-y-4 mt-12">
               <div class="space-y-1.5">
                 <p class="text-primary-9">Сompany Name</p>
@@ -31,7 +30,7 @@
             </div>
           </div>
           <div class="bg-primary rounded p-12">
-            <p class="text-4xl text-primary-9">$ Долар</p>
+            <p class="text-2xl lg:text-4xl text-primary-9">$ Долар</p>
             <div class="space-y-4 mt-12">
               <div class="space-y-1.5">
                 <p class="text-primary-9">Сompany Name</p>
@@ -56,7 +55,7 @@
             </div>
           </div>
           <div class="bg-primary rounded p-12">
-            <p class="text-4xl text-primary-9">₴ Гривня</p>
+            <p class="text-2xl lg:text-4xl text-primary-9">₴ Гривня</p>
             <div class="space-y-4 mt-12">
               <div class="space-y-1.5">
                 <p class="text-primary-9">Найменування організації</p>

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary-9 w-full">
     <div class="2xl:container flex flex-col items-center">
-      <footer class="flex justify-between items-center w-[80%] py-7">
+      <footer class="flex justify-between items-center w-full px-11 xl:px-0 xl:w-[80%] py-7">
         <a class="inline-flex" href="/">
           <img alt="" src="@/assets/img/logo_white.svg"/>
         </a>

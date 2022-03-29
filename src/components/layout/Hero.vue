@@ -15,13 +15,8 @@
         <div class="flex justify-end w-full h-full">
           <div class="w-7/12 xl:w-6/12 pr-2.5 ml-5 md:ml-11 mt-56">
             <Title :text="$t('hero.title')"/>
-            <p class="mt-11 mb-8 text-lg lg:text-2xl font-normal">
-              Це громадська організація, заснована у 2020 році телеведучою,
-              благодійницею та Почесним послом ООН в Україні Марією Єфросініною.
-            </p>
-            <p class="text-lg lg:text-2xl font-normal mb-28">
-              Фонд МАША має необхідний людський ресурс для допомоги постраждалим у війні в Україні.
-            </p>
+            <p class="mt-11 mb-8 text-lg lg:text-2xl font-normal">{{$t('hero.text_1')}}</p>
+            <p class="text-lg lg:text-2xl font-normal mb-28">{{$t('hero.text_2')}}</p>
             <div class="hidden md:flex justify-center mb-16">
               <a class="text-primary-9" href="#sec-about" v-smooth-scroll>
                 {{ $t('actions.scrollToDown') }}

@@ -8,7 +8,7 @@ check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html
 2 Run npm install at the root of the project
 
 ### For development
-npm run dev or vite
+npm run dev or vite dev
 
 #### For build
 npm run build or vite build

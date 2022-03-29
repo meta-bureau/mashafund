@@ -2,10 +2,10 @@
   <div class="bg-white w-full">
     <div class="2xl:container flex justify-center">
       <div class="flex flex-col items-center w-full px-11 xl:px-0 xl:w-[80%] my-36 requisites-bg-logo">
-        <Title text="РЕКВІЗИТИ ФОНДУ" fontSize="small"/>
+        <Title :text="$t('requisites.title')" fontSize="small"/>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 z-10">
           <div class="bg-primary rounded p-12">
-            <p class="text-2xl lg:text-4xl text-primary-9">€ Евро</p>
+            <p class="text-2xl lg:text-4xl text-primary-9">{{ $t('requisites.euro.title') }}</p>
             <div class="space-y-4 mt-12">
               <div class="space-y-1.5">
                 <p class="text-primary-9">Сompany Name</p>
@@ -17,7 +17,8 @@
               </div>
               <div class="space-y-1.5">
                 <p class="text-primary-9">Name of the bank</p>
-                <p class="font-helvetica font-light leading-7">JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE</p>
+                <p class="font-helvetica font-light leading-7">JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001,
+                  UKRAINE</p>
               </div>
               <div class="space-y-1.5">
                 <p class="text-primary-9">Bank SWIFT Code</p>
@@ -25,12 +26,12 @@
               </div>
               <div class="space-y-1.5">
                 <p class="text-primary-9">Company address</p>
-                <p class="font-helvetica font-light leading-7">UA 01033 м Київ вул Саксаганського б.27б кв.43</p>
+                <p class="font-helvetica font-light leading-7">Ukraine, 01033, Kyiv, Saksaganskogo str, 27B, office 43</p>
               </div>
             </div>
           </div>
           <div class="bg-primary rounded p-12">
-            <p class="text-2xl lg:text-4xl text-primary-9">$ Долар</p>
+            <p class="text-2xl lg:text-4xl text-primary-9">{{ $t('requisites.dollar.title') }}</p>
             <div class="space-y-4 mt-12">
               <div class="space-y-1.5">
                 <p class="text-primary-9">Сompany Name</p>
@@ -42,7 +43,8 @@
               </div>
               <div class="space-y-1.5">
                 <p class="text-primary-9">Name of the bank</p>
-                <p class="font-helvetica font-light leading-7">JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE</p>
+                <p class="font-helvetica font-light leading-7">JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001,
+                  UKRAINE</p>
               </div>
               <div class="space-y-1.5">
                 <p class="text-primary-9">Bank SWIFT Code</p>
@@ -50,15 +52,15 @@
               </div>
               <div class="space-y-1.5">
                 <p class="text-primary-9">Company address</p>
-                <p class="font-helvetica font-light leading-7">UA 01033 м Київ вул Саксаганського б.27б кв.43</p>
+                <p class="font-helvetica font-light leading-7">Ukraine, 01033, Kyiv, Saksaganskogo str, 27B, office 43</p>
               </div>
             </div>
           </div>
           <div class="bg-primary rounded p-12">
-            <p class="text-2xl lg:text-4xl text-primary-9">₴ Гривня</p>
+            <p class="text-2xl lg:text-4xl text-primary-9">{{ $t('requisites.hryvnia.title') }}</p>
             <div class="space-y-4 mt-12">
               <div class="space-y-1.5">
-                <p class="text-primary-9">Найменування організації</p>
+                <p class="text-primary-9">{{ $t('requisites.hryvnia.companyName') }}</p>
                 <p class="font-helvetica font-light leading-7">ГО ФОНД МАША</p>
               </div>
               <div class="space-y-1.5">

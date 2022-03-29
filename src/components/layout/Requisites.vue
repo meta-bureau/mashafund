@@ -64,15 +64,15 @@
                 <p class="font-helvetica font-light leading-7">ГО ФОНД МАША</p>
               </div>
               <div class="space-y-1.5">
-                <p class="text-primary-9">Код отримувача</p>
+                <p class="text-primary-9">{{ $t('requisites.hryvnia.removalCode') }}</p>
                 <p class="font-helvetica font-light leading-7">44150335</p>
               </div>
               <div class="space-y-1.5">
-                <p class="text-primary-9">Назва банку</p>
+                <p class="text-primary-9">{{ $t('requisites.hryvnia.bankName') }}</p>
                 <p class="font-helvetica font-light leading-7">АТ КБ "ПРИВАТБАНК"</p>
               </div>
               <div class="space-y-1.5">
-                <p class="text-primary-9">Рахунок отримувача у форматі IBAN</p>
+                <p class="text-primary-9">{{ $t('requisites.hryvnia.ibanAccount') }}</p>
                 <p class="font-helvetica font-light leading-7">UA193052990000026002036802273</p>
               </div>
               <div class="space-y-1.5">

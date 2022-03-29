@@ -135,6 +135,9 @@ export default {
     hryvnia: {
       title: '₴ Гривня',
       companyName: 'Найменування організації',
+      removalCode: 'Код отримувача',
+      bankName: 'Назва банку',
+      ibanAccount: 'Рахунок отримувача у форматі IBAN',
       currency: 'Валюта'
     },
   },

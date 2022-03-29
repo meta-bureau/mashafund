@@ -135,6 +135,7 @@ export default {
     hryvnia: {
       title: '₴ Hryvnia',
       companyName: 'Сompany Name',
+      currency: 'Currency'
     },
   },
   footer: {

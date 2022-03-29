@@ -76,7 +76,7 @@
                 <p class="font-helvetica font-light leading-7">UA193052990000026002036802273</p>
               </div>
               <div class="space-y-1.5">
-                <p class="text-primary-9">Валюта</p>
+                <p class="text-primary-9">{{ $t('requisites.hryvnia.currency') }}</p>
                 <p class="font-helvetica font-light leading-7">UAH</p>
               </div>
             </div>

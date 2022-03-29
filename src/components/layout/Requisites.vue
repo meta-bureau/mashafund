@@ -3,7 +3,7 @@
     <div class="2xl:container flex justify-center">
       <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-36 requisites-bg-logo">
         <Title :text="$t('requisites.title')" fontSize="small"/>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16 z-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 mt-16 z-10">
           <div class="bg-primary rounded p-12">
             <p class="text-2xl lg:text-4xl text-primary-9">{{ $t('requisites.euro.title') }}</p>
             <div class="space-y-4 mt-12">

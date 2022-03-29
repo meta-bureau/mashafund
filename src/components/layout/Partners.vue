@@ -1,9 +1,9 @@
 <template>
   <div class="bg-gray w-full">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-36">
+      <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-20 md:my-36">
         <Title :text="$t('partners.title')"/>
-        <div class="flex flex-row justify-center w-10/12 mt-10 mb-16 space-x-11">
+        <div class="hidden sm:flex flex-row justify-center w-10/12 mt-10 mb-16 space-x-11">
           <img src="@/assets/img/partner_logo_1.png" alt="" class="h-[30px] lg:h-[43px] xl:h-[54px]">
           <img src="@/assets/img/GoGlobalLogo_2.png" alt=""
                class="h-[30px] lg:h-[43px] xl:h-[54px] grayscale opacity-50">
@@ -13,9 +13,9 @@
           <img src="@/assets/img/partner_logo_5.png" alt=""
                class="h-[30px] lg:h-[43px] xl:h-[54px] grayscale opacity-50">
         </div>
-        <div class="partner-ears w-10/12">
+        <div class="partner-ears w-full mt-11 md:mt-0 md:w-10/12">
           <div
-            class="flex flex-col bg-primary rounded w-full relative p-[98px] z-10 partners-bg-left-logo partners-slider-wrap">
+            class="flex flex-col bg-primary rounded w-full relative px-9 py-14 md:p-[98px] z-10 partners-bg-left-logo partners-slider-wrap">
             <Carousel :autoplay="3000" :wrap-around="true">
               <Slide key="1">
                 <div class="flex flex-col text-left">
@@ -125,7 +125,7 @@ export default {
     background-image: url("../../assets/img/logo_2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    @apply absolute w-[93px] h-[235px] left-[-34px] bottom-[-60px];
+    @apply absolute w-[30px] md:w-[93px] h-[73px] md:h-[235px] left-[-13px] md:left-[-34px] bottom-[-40px] md:bottom-[-60px];
   }
 }
 
@@ -135,7 +135,7 @@ export default {
   &:before, &:after {
     content: '';
 
-    @apply absolute w-[20%] h-[85%] top-1/2 bg-primary-1 rounded z-0;
+    @apply absolute w-0 md:w-[20%] h-0 md:h-[85%] top-1/2 bg-primary-1 rounded z-0;
   }
 
   &:before {
@@ -167,11 +167,11 @@ export default {
   }
 
   .carousel__prev {
-    transform: translate(-200%, -50%);
+    @apply translate-x-[-150%] md:translate-x-[-200%] -translate-y-1/2;
   }
 
   .carousel__next {
-    transform: translate(200%, -50%);
+    @apply translate-x-[150%] md:translate-x-[200%] -translate-y-1/2;
   }
 }
 </style>

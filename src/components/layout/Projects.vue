@@ -1,48 +1,48 @@
 <template>
   <div class="bg-primary w-full overflow-hidden">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-36 projects-bg-logo">
+      <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-20 md:my-36 projects-bg-logo">
         <Title :text="$t('projects.title')" fontSize="small"/>
-        <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 z-10">
-          <div class="bg-gray rounded p-16">
+        <div class="mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 z-10">
+          <div class="bg-gray rounded px-10 py-14 md:p-16">
             <p class="text-primary-9 text-2xl lg:text-4xl">{{$t('projects.project_1.title')}}</p>
-            <p class="text-primary-9 mt-12">
+            <p class="text-primary-9 mt-5 md:mt-12">
               {{$t('projects.project_1.text')}}
             </p>
-            <div class="flex justify-end mt-8">
+            <div class="flex justify-end mt-6 md:mt-8">
               <button class="flex items-center text-primary-9" type="button">
               {{$t('actions.readMore')}}
                 <img class="ml-2.5" src="@/assets/img/icons/arrow-right.svg" alt="arrow-right">
               </button>
             </div>
           </div>
-          <div class="bg-gray rounded p-16">
+          <div class="bg-gray rounded px-10 py-14 md:p-16">
             <p class="text-primary-9 text-2xl lg:text-4xl">{{$t('projects.project_2.title')}}</p>
-            <p class="text-primary-9 mt-12">
+            <p class="text-primary-9 mt-5 md:mt-12">
               {{$t('projects.project_2.text')}}
             </p>
-            <div class="flex justify-end mt-8">
+            <div class="flex justify-end mt-6 md:mt-8">
               <button class="flex items-center text-primary-9" type="button">
               {{$t('actions.readMore')}}
                 <img class="ml-2.5" src="@/assets/img/icons/arrow-right.svg" alt="arrow-right">
               </button>
             </div>
           </div>
-          <div class="bg-gray rounded p-16">
+          <div class="bg-gray rounded px-10 py-14 md:p-16">
             <p class="text-primary-9 text-2xl lg:text-4xl">{{$t('projects.project_3.title')}}</p>
-            <p class="text-primary-9 mt-12">
+            <p class="text-primary-9 mt-5 md:mt-12">
               {{$t('projects.project_3.text')}}
             </p>
           </div>
-          <div class="bg-gray rounded p-16">
+          <div class="bg-gray rounded px-10 py-14 md:p-16">
             <p class="text-primary-9 text-2xl lg:text-4xl">{{$t('projects.project_4.title')}}</p>
-            <div class="font-helvetica space-y-1.5 mt-10">
+            <div class="font-helvetica space-y-1.5 mt-5 md:mt-10">
               <p>{{$t('projects.project_4.textList.1')}}</p>
               <p>{{$t('projects.project_4.textList.2')}}</p>
               <p>{{$t('projects.project_4.textList.3')}}</p>
               <p>{{$t('projects.project_4.textList.4')}}</p>
             </div>
-            <div class="flex justify-end mt-8">
+            <div class="flex justify-end mt-6 md:mt-8">
               <button class="flex items-center text-primary-9" type="button">
               {{$t('actions.readMore')}}
                 <img class="ml-2.5" src="@/assets/img/icons/arrow-right.svg" alt="arrow-right">

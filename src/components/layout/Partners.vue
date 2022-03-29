@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray w-full">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-full px-11 xl:px-0 xl:w-[80%] my-36">
+      <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-36">
         <Title :text="$t('partners.title')"/>
         <div class="flex flex-row justify-center w-10/12 mt-10 mb-16 space-x-11">
           <img src="@/assets/img/partner_logo_1.png" alt="" class="h-[30px] lg:h-[43px] xl:h-[54px]">

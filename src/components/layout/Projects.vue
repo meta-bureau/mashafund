@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary w-full overflow-hidden">
     <div class="2xl:container flex justify-center">
-      <div class="flex flex-col items-center w-full px-11 xl:px-0 xl:w-[80%] my-36 projects-bg-logo">
+      <div class="flex flex-col items-center w-full px-5 md:px-11 xl:px-0 xl:w-[80%] my-36 projects-bg-logo">
         <Title :text="$t('projects.title')" fontSize="small"/>
         <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8 z-10">
           <div class="bg-gray rounded p-16">

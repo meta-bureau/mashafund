@@ -59,9 +59,9 @@
   </div>
   <div class="bg-white w-full">
     <div class="2xl:container flex justify-center">
-      <div class="flex justify-start px-5 md:px-11 xl:px-0 w-full xl:w-[80%] my-36 relative">
-        <div class="absolute right-11 xl:right-0 -top-12 z-10 shadow-light">
-          <div class="image-bg-right-logo  w-[320px] xl:w-[392px] about-slider-wrap">
+      <div class="flex justify-start px-5 md:px-11 xl:px-0 w-full xl:w-[80%] mt-20 mb-72 md:my-36 relative">
+        <div class="absolute translate-x-1/2 md:translate-x-0 right-1/2 md:right-11 xl:right-0 -bottom-48 md:bottom-[initial] md:-top-12 z-10 shadow-light">
+          <div class="image-bg-right-logo w-257 md:w-[320px] xl:w-[392px] about-slider-wrap">
             <Carousel :autoplay="3000" :wrap-around="true">
               <Slide key="1">
                 <img class="rounded object-cover w-full h-full" src="@/assets/img/about-slider/slide_1.jpg">
@@ -111,7 +111,7 @@
           </div>
         </div>
         <div
-          class="md:w-9/12 px-5 md:pl-16 md:pr-40 md:py-20 text-lg font-normal rounded bg-gray about-slider-bg-left-logo">
+          class="md:w-9/12 px-5 md:pl-16 md:pr-40 pt-20 pb-36 md:py-20 text-lg font-normal rounded bg-gray about-slider-bg-left-logo">
           <p class="font-helvetica xl:pr-20 leading-7 text-lg lg:text-2xl">{{ $t('about.slider.text_1') }}</p>
           <p class="lg:text-lg text-primary-9 leading-7 mt-12 mb-8">
             <span class="font-bold">{{ $t('about.slider.text_2.textBold') }}</span>
@@ -191,15 +191,15 @@ export default {
     background-image: url("../../assets/img/logo_2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    @apply absolute w-[93px] h-[235px] left-[-34px] bottom-[-60px];
+    @apply absolute w-[93px] h-[235px] left-[-34px] bottom-[-110px] md:bottom-[-60px];
   }
 }
 
 .about-slider-wrap {
-  @apply h-[392px] xl:h-[450px];
+  @apply h-[292px] md:h-[392px] xl:h-[450px];
 
   .carousel__slide {
-    @apply h-[392px] xl:h-[450px];
+    @apply h-[292px] md:h-[392px] xl:h-[450px];
   }
 
   .carousel__pagination-button {
